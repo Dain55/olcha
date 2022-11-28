@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+.container{
+    margin: 0px auto;
+    max-width: 1440px;
+}
+.modal-deals{
+    display: flex;
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(133, 2, 2);
+    position: fixed;
+    right: -100%;
+    top: 0px;
+    padding: 20px;
+    transition: .5s ease;
+}
+.modal-active{
+    right: 0%;
+    transition: .5s ease;
+}
+.modal-close-active{
+    right: -100%;
+}
+.modal-color{
+    background-color: black;
+    opacity: 1;
+}
+/* header-up */
+
+.background-red{
+    background-color: #DA002B;
+    width: 1440px;
+    height: 20px;
+}
+.header-up {
+    display: flex;
+    background-color: #DA002B;
+    height: 40px;
+    max-width: 1440px;
+    justify-content: space-around;
+    gap: 480px;
+}
+.left{
+    display: flex;
+    padding: 10px;
+    gap: 20px; 
+}
+.right{
+    display: flex;
+    padding: 10px;
+    gap: 20px; 
+}
+.text-white{
+    background-color: #fff;
+    color: #da002b;
+    white-space: nowrap;
+    border: solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 23px;
+    width: 100px;
+}
+.text-red{
+    background-color: #DA002B;
+    color: #fff;
+    white-space: nowrap;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    height: 23px;
+    width: 60px;
+    cursor: pointer;
+}
+.map{
+    padding: 4px 10px;
+    color: #fff;
+    font-weight: lighter;
+}
+.number{
+    padding-top: 5px;
+    color: #fff;
+}
+.text-to-sell{
+    background-color: #DA002B;
+    color: #fff;
+    white-space: nowrap;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    height: 23px;
+    width: 150px;
+    cursor: pointer;
+}
+/* header-bottom */
+.header-bottom{
+    background:white;
+    border: solid transparent;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    height: 100px;
+    max-width: 100%;
+    justify-content: center;
+    padding: 20px 0px;
+    gap: 50px;
+}
+.img-red{
+    height: 35px;
+   
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.katalogi{
+    background-color: white;
+    border: 1px solid black;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.katalogi:hover{
+    border: 1px solid red;
+    color: red;
+    transition: .5s ease;
+}
+.search{
+    display: flex;
+}
+.color-search{
+    height: 40px;
+    width: 500px;
+    padding: 0px 15px;
+    background:#F2F2F2;
+    border: solid transparent;
+    border-radius: 5px;
+}
+.icon-search{
+    background-color: #DA002B;
+    height: 40px;
+    width: 60px;
+    border: solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ico-search{
+    padding: 5px 14px;
+}
+.icon-search:hover{
+    background-color: #88001b;
+    transition: .5s ease;
+}
+.icons-img{
+    display: flex;
+    gap: 15px;
+}
+.ico-search:hover{
+    padding: 5px 14px;
+}
+.statistics img{
+       height: 30px;
+       padding: 0px 15px;
+}
+.text-icons{
+    font-size: 12px;
+}
+.heart img{
+    height: 30px;
+    padding: 0px 18px;
+}
+.cart img{
+    height: 30px;
+    padding: 0px 8px;
+}
+.User img{
+    height: 30px;    
+    padding: 0px 3px;
+}
+.list{
+    height: 30px;
+    width: 30px;
+}
+.page-shop{
+    display: flex;
+
+}
+.notebook-game img{
+    border-radius: 10px;
+    height: 400px;
+    width: 1050px;
+}
+
+.background-iphone{
+    background: white;
+    border: 5px solid red;
+    border-radius:20px;
+    height: 400px;
+    width:300px;
+    margin-left: 100px;
+}
+.text-h2{
+    padding: 10px 20px;
+}
+.img-phone{
+    background-image: url(https://olcha.uz/image/220x220/products/upSEKotOdwChju0pOrLgAhQ2Ey7CVllO13FOvL1jAWVLknBnhuQZQG6aJWKV.jpeg); 
+    margin: 0px 35px;
+    mask-repeat: no-repeat;
+    height: 220px;
+    width: 200px;
+}
+.text-realme{
+    padding: 0px 15px;
+    font-size: 15px;
+}
+.text-h1{
+    padding: 0px 15px;
+    font-size: 20px; 
+}
+.bth-yelloy{
+    border-radius: 5px ;
+    margin: 15px 15px;
+    height: 20px;
+    width: 150px;
+    background-color: #FFD740;
+}
+
+.x-btn{
+    display: block;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    left: 90%;
+}
+.modal-deals h1{
+    color: #fff;
+}
+.modal-deals p{
+    color: #fff;
+}
+.list-2{
+  margin: 0px 50px;
+}
+.box-img1{
+    display: flex;
+    gap: 34px;
+}
+.img-сlothes{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box-img2 img{
+    height: 100px;
+    width: 1445px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box-img3{
+    display: flex;
+    gap: 25px;
+}
+.img-footboll{
+    height: 300px;
+    width: 720px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img-sport{
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img-tovar img{
+    height: 1000px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-element{
+    display: flex;
+    margin: 0px auto;
+    width: 1440px;
+    gap: 100px;
+}
+
+.box-phone_element{
+    height: 550px;
+    width: 300px;
+}
+
+.img_element{
+    height: 300px;
+    width: 300px;
+}
+.text-element{
+    font-weight:normal;
+    font-size: 25px;
+}
+.text-h2-element{
+    margin: 40px 0px;
+}
+.bth-yelloy-element{
+    border-radius: 5px;
+    height: 20px;
+    width: 150px;
+    background-color: #FFD740;
+}
+
+.btn-shop-red{
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    color: red;
+}
+.btn-shop-red:hover{
+    background-color: rgb(226, 226, 226);
+    transition: .5s ease;
+}
